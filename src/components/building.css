@@ -1,0 +1,31 @@
+.component-shop-front {
+    width: 100vmax;
+    height: 40vmax;
+
+}
+
+.component-shop-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.component-shop-front-text {
+
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 0, 150);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.component-shop-front-text-box {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 800px;
+}
