@@ -6,48 +6,56 @@ export default class topribbon extends React.Component {
         return (
             <div className="component-topribbon">
 
-                <div className="component-button-home">
-                    <p>
-                        HOME
-                    </p>
-                </div>
-
-                <div className="component-button-about">
-                    <p>
-                        ABOUT
-                    </p>
-                </div>
-
-                <div className="component-button-appointments">
-                    <p>
-                        APPOINTMENTS
-                    </p>
-                </div>
-
                 <div className="component-logo">
                     <img src="./companylogo.png" />
                 </div>
 
-                <div className="component-icon-phone">
-                    <img src="./phone-icon.png" />
+                <div className="component-buttons">
+                    <div className="component-button-home">
+                        <p>
+                            HOME
+                        </p>
+                    </div>
+
+                    <div className="component-button-about">
+                        <p>
+                            ABOUT
+                        </p>
+                    </div>
+
+                    <div className="component-button-appointments">
+                        <p>
+                            APPOINTMENTS
+                        </p>
+                    </div>
+
+                </div>
+
+                <div className="component-space">
+                </div>
+
+                <div className="component-contact">
+                    <div className="component-icon-phone">
+                        <img src="./phone-icon.png" />
+                    </div>
 
                     <div className="component-phone-number">
                         <p>
                             (806) 855-4084
                         </p>
                     </div>
-                </div>
 
 
-                <div className="component-icon-mail">
-                    <img src="./mail-icon.png"/>
-                    <div className="component-icon-mail-address">
-                        <p>
-                            frenshipautomotive@yahoo.com
-                        </p>
+                    <div className="component-icon-mail">
+                        <img src="./mail-icon.png" />
                     </div>
-                </div>
 
+                    <div className="component-icon-mail-address">
+                            <p>
+                                frenshipautomotive@yahoo.com
+                            </p>
+                        </div>
+                </div>
 
 
             </div>

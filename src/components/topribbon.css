@@ -1,87 +1,95 @@
 .component-topribbon {
     width: 100vmax;
-    height: 50px;
+    height: 60px;
     background-color: white;
+    display: flex;
 }
 
 .component-logo {
     width: 130px;
-    height: 40px;
-    position: absolute;
-    top: 5px;
+    height: 100%;
 }
 
 .component-logo img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
+}
+
+.component-buttons {
+    width: 40vmax;
+    height: 100%;
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 .component-button-home {
-    width: 100px;
-    height: 50px;
-    padding-left: 10px;
-    padding-top: 3px;
-    position: absolute;
-    left: 110px
+    width: 20%;
+    height: 100%;
 }
 
 .component-button-about {
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    left: 210px;
-    top: 3px;
+    width: 20%;
+    height: 100%;
 }
 
 .component-button-appointments {
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    left: 330px;
-    top: 3px;
+    width: 60%;
+    height: 100%;
+}
+
+.component-space {
+    width: 30vmax;
+    display: flex;
+}
+
+.component-contact {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    align-content: right;
 }
 
 .component-icon-phone {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: 70vmax;
-    top: 10px;
+    width: 50px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .component-icon-phone img {
-    width: 100%;
+    width: 80%;
     height: 100%;
-    object-fit: fill;
+    display: block;
+    object-fit: contain;
 }
 
 .component-phone-number {
-    width: 150px;
-    height: 50px;
-    position: relative;
-    top: -48px;
-    left: 35px;
+    width: 40%;
+    height: 100%;
 }
 
 .component-icon-mail {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    left: 80vmax;
-    top: 10px;
+    width: 50px;
+    height: 60px;
+    padding-left: 5px;
+    display: flex;
 }
 
 .component-icon-mail img {
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 .component-icon-mail-address {
-    width: 110px;
-    height: 50px;
-    position: relative;
-    left: 35px;
-    top: -48px;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    padding-right: 50px;
 }
