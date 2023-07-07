@@ -37,11 +37,11 @@
 }
 
 .component-button-appointments {
-    width: 60%;
+    width: 40%;
     height: 100%;
 }
 
-.component-space {
+.component-whitespace {
     width: 30vmax;
     display: flex;
 }

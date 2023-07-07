@@ -31,7 +31,7 @@ export default class topribbon extends React.Component {
 
                 </div>
 
-                <div className="component-space">
+                <div className="component-whitespace">
                 </div>
 
                 <div className="component-contact">
