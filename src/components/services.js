@@ -5,63 +5,31 @@ export default class services extends React.Component {
 
     render() {
         return (
+
             <div className="component-services">
-                <div className="component-services-image">
-                    <img src="IMG_0702.jpg" />
-                </div>
-
-                <div className="component-services-info">
-
-                    <div className="component-services-info-days">
-                        <p>
-                            <b>
-                                Mon <br />
-                                Tue <br />
-                                Wed <br />
-                                Thu <br />
-                                Fri <br />
-                                Sat <br />
-                                Sun <br />
-                            </b>
-                        </p>
-                    </div>
-
-                    <div className="component-services-info-hours">
-                        <p>
-                            8:00 AM - 6:00 PM <br />
-                            8:00 AM - 6:00 PM <br />
-                            8:00 AM - 6:00 PM <br />
-                            8:00 AM - 6:00 PM <br />
-                            8:00 AM - 6:00 PM <br />
-                            Closed <br />
-                            Closed <br />
-                        </p>
-                    </div>
-
-                    <div className="component-services-division-bar-1">
-                    </div>
 
 
-                    <div className="component-services-info-text1">
-                        <p>
-                            Appointments ARE neccessary for most repairs. Please call ahead to schedule an appointment with us!
-                        </p>
-                    </div>
 
-                    <div className="component-services-division-bar-2">
-                    </div>
+                <div className="component-services-wrapper">
 
-                    <div className="component-services-info-services">
-                        <div className="component-services-info-services-title">
-                            <p>
-                                Services We Offer:
-                            </p>
-                        </div>
-                    </div>
+                    <div className="component-services-title-box"><p>Services we proudly offer</p></div>
+
+                    <div className="component-services-box"><p>Oil Change</p></div>
+                    <div className="component-services-box"><p>Tire Rotation</p></div>
+                    <div className="component-services-box"><p>Flat Repair</p></div>
+                    <div className="component-services-box"><p>Alignments*</p></div>
+                    <div className="component-services-box"><p>A/C Service</p></div>
+                    <div className="component-services-box"><p>Engine Repair</p></div>
+                    <div className="component-services-box"><p>Transmission Repair</p></div>
+                    <div className="component-services-box"><p>Brake Service</p></div>
+                    <div className="component-services-box"><p>Vehicle Diagnosis</p></div>
+                    <div className="component-services-box-ast"><p>*Small cars and light duty trucks</p></div>
+
 
                 </div>
             </div>
+
         );
     }
 
-}
+} 

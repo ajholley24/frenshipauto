@@ -1,6 +1,7 @@
 import './App.css';
 import Topribbon from "./components/topribbon";
 import Building from "./components/building";
+import Location from "./components/location";
 import News from "./components/news";
 import Services from "./components/services";
 
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Topribbon />
       <Building />
-      {/* <Services /> */}
+      <Location />
+      <Services />
     </div>
   );
 }

@@ -19,6 +19,7 @@ export default class building extends React.Component {
                     <img src="./building.jpg" />
                 </div>
                 <div className="component-box-2-gradient"></div>
+                <div className="component-bottom-gradient"></div>
                 <div className="component-box-4">
                     <h1>Business Hours:</h1>
                 </div>
