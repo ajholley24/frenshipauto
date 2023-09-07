@@ -16,7 +16,7 @@ export default class location extends React.Component {
 
                     <div className="component-location-info-wrapper">
                         <div className="component-location-info-box-a"><p>Address: 208 E Hwy 62-82, Wolfforth, TX 79382</p></div>
-                        <div className="component-location-info-box-b"><p>Servicing the greater Lubbock area since 2013</p></div>
+                        <div className="component-location-info-box-b"><p>Servicing the greater Lubbock area since 2011</p></div>
                     </div>
 
                 </div>

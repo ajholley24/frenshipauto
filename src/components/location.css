@@ -21,30 +21,22 @@
 }
 
 .component-location-info-wrapper {
+    width: 800px;
     margin: auto;
-    padding: 50px;
+    padding: 30px;
     display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-auto-rows: 170px;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(71, 71, 71);
+    border-radius: 25px;
     
 }
 
 .component-location-info-box-a {
-    width: 100%;
-    height: 100%;
-    grid-column-start: 1;
-    grid-column-end: 4;
     font-size: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .component-location-info-box-b {
-    width: 100%;
-    height: 100%;
     font-size: 50px;
-    grid-column-start: 1;
-    grid-column-end: 4;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
